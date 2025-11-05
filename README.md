@@ -1101,9 +1101,31 @@ We welcome suggestions! Consider:
 
 ## 📄 License
 
-This software is provided for data masking and anonymization purposes.
 
-**Proprietary License** - Copyright (c) 2024 MonteyAI LLC
+**MIT License**
+
+Copyright (c) 2025 MonteyAI LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
 
 See [LICENSE.md](LICENSE.md) for complete terms including:
 - Usage rights and restrictions
@@ -1112,6 +1134,45 @@ See [LICENSE.md](LICENSE.md) for complete terms including:
 - Liability limitations
 - Support policy
 
+---
+
+## ⚠️ Important Disclaimers & Notices
+
+### 🧪 Proof of Concept Status
+
+This software is provided as a **PROOF OF CONCEPT DEMONSTRATION** and should be treated accordingly:
+
+**⚠️ CRITICAL NOTICES:**
+
+1. **NOT PRODUCTION-HARDENED**: While functional and well-architected, this software has not undergone extensive production testing, security auditing, or stress testing that enterprise-grade software requires.
+
+2. **NO WARRANTY**: This software is provided "AS IS" without warranty of any kind. See the MIT License above for full details.
+
+3. **USE AT YOUR OWN RISK**: You assume all risks associated with using this software. The authors and contributors are not liable for any damages, data loss, system failures, or other issues that may arise.
+
+### 🔒 Security Considerations
+
+**IMPORTANT - READ BEFORE PRODUCTION USE:**
+
+- **Credentials Storage**: Settings (including SMTP passwords) are stored in plain text JSON files
+- **No Authentication**: Single-user design with no built-in authentication mechanism
+- **Local Execution**: All jobs run with the permissions of the user running the application
+- **Database Security**: SQLite database is not encrypted
+- **Script Execution**: Jobs can execute arbitrary commands on your system
+
+**RECOMMENDATION**: 
+- Use environment variables for sensitive data
+- Run in isolated/sandboxed environments
+- Implement additional security layers if using in production
+- Review all scripts before scheduling execution
+- Do not expose to untrusted networks
+
+### 🧪 Testing Requirements
+
+**⚠️ MANDATORY FOR PRODUCTION USE:**
+
+Users intending to use this software in production environments **MUST** perform their own comprehensive testing, including but not limited to:
+---
 **Key Points:**
 - ✅ Use for internal data masking
 - ✅ Modify for your needs
