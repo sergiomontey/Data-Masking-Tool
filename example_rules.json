@@ -1,0 +1,43 @@
+{
+  "first_name": {
+    "type": "Fake Data Replacement",
+    "options": {}
+  },
+  "last_name": {
+    "type": "Fake Data Replacement",
+    "options": {}
+  },
+  "email": {
+    "type": "Email Masking",
+    "options": {}
+  },
+  "phone": {
+    "type": "Phone Masking",
+    "options": {}
+  },
+  "ssn": {
+    "type": "SSN Masking",
+    "options": {}
+  },
+  "salary": {
+    "type": "Number Randomization",
+    "options": {}
+  },
+  "date_of_birth": {
+    "type": "Date Shifting",
+    "options": {
+      "shift_days": 30
+    }
+  },
+  "address": {
+    "type": "Partial Masking",
+    "options": {
+      "keep_first": 0,
+      "keep_last": 10
+    }
+  },
+  "employee_id": {
+    "type": "Hash (One-way)",
+    "options": {}
+  }
+}
