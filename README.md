@@ -28,7 +28,7 @@ While fully functional and well-architected, this software:
 See the [Disclaimers & Testing Requirements](#️-important-disclaimers--notices) section for full details.
 
 ---
-<img width="468" height="516" alt="image" src="https://github.com/user-attachments/assets/3330ef26-94cc-4de1-b37f-330eae2d1f5c" />
+
 
 ## 🎯 Overview
 
