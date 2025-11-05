@@ -5,11 +5,30 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458.svg)
 ![Cryptography](https://img.shields.io/badge/Cryptography-Security-green.svg)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)
-![License](https://img.shields.io/badge/License-Proprietary-red.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-Proof%20of%20Concept-blueviolet.svg)
+
 
 > **A comprehensive desktop application for masking and anonymizing sensitive data before moving it to lower environments** - Apply rule-based masking to PII fields, generate realistic test data, and ensure compliance with GDPR, HIPAA, and CCPA regulations for testing and development.
 
 ---
+
+## ⚠️ PROOF OF CONCEPT NOTICE
+
+**IMPORTANT: This is a demonstration/proof of concept project.**
+
+While fully functional and well-architected, this software:
+- ✅ **IS** suitable for learning, development, and non-critical automation
+- ✅ **IS** open-source under MIT License (free to use, modify, distribute)
+- ⚠️ **REQUIRES** your own comprehensive testing before production use
+- ⚠️ **HAS NOT** undergone extensive security auditing or stress testing
+- ⚠️ **STORES** credentials in plain text (implement additional security for production)
+
+**Users must perform their own testing, security auditing, and risk assessment before production deployment.**
+
+See the [Disclaimers & Testing Requirements](#️-important-disclaimers--notices) section for full details.
+
+---
+<img width="468" height="516" alt="image" src="https://github.com/user-attachments/assets/3330ef26-94cc-4de1-b37f-330eae2d1f5c" />
 
 ## 🎯 Overview
 
