@@ -1258,9 +1258,6 @@ Users intending to use this software in production environments **MUST** perform
 
 ## ❓ FAQ
 
-**Q: Is this tool free?**  
-A: It's proprietary software by MonteyAI LLC for internal use. Not for public redistribution.
-
 **Q: Can I use this in production?**  
 A: It's designed for test/dev environments. Production use requires additional security measures.
 
